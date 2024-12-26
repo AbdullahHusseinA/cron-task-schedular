@@ -1,10 +1,10 @@
 # Cron jobs for automating tasks:
 
 # Backup job
-# Runs every Sunday at 2 AM to backup the /etc directory
+# To run every Sunday at 2 AM to backup the /etc directory
 0 2 * * 0 /path/to/backup.sh
 
 # Log cleanup job
-# Runs every Sunday at 3 AM to clean up log files older than 7 days
+# To run every Sunday at 3 AM to clean up log files older than 7 days
 0 3 * * 0 /path/to/log_cleanup.sh
 
