@@ -45,7 +45,6 @@ sudo crontab -e
 # Log cleanup every Sunday at 3AM
 0 3 * * 0 /path/to/log_cleanup.sh
 
-
 ## Contributing
 
 Feel free to fork this repository, make improvements, and submit pull requests. Contributions are always welcome.
@@ -53,6 +52,5 @@ Feel free to fork this repository, make improvements, and submit pull requests. 
 ## License
 
 This project follows the [MIT License](LICENSE).
-
 
 
