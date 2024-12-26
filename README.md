@@ -21,7 +21,7 @@ This project automates common administrative tasks on a Linux system by scheduli
 
 1. Clone this repository to your system:
    ```bash
-   git clone https://github.com/<your-username>/cron-task-scheduler.git
+   git clone https://github.com/AbdullahHusseinA/cron-task-scheduler.git
    cd cron-task-scheduler
 
 2. Ensure scripts are executable:
@@ -46,7 +46,7 @@ sudo crontab -e
 0 3 * * 0 /path/to/log_cleanup.sh
 
 
-##Contributing
+## Contributing
 
 Feel free to fork this repository, make improvements, and submit pull requests. Contributions are always welcome.
 
