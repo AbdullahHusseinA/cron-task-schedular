@@ -36,14 +36,16 @@ This project automates common administrative tasks on a Linux system by scheduli
 ## How to Schedule Cron Jobs
 
 To add the scripts to your cron scheduler, open crontab with the command:
+
 ```bash
-sudo crontab -e
 
-# Backup every Sunday at 2AM
-0 2 * * 0 /path/to/backup.sh
+    sudo crontab -e
 
-# Log cleanup every Sunday at 3AM
-0 3 * * 0 /path/to/log_cleanup.sh
+    # Backup every Sunday at 2AM
+    0 2 * * 0 /path/to/backup.sh
+
+    # Log cleanup every Sunday at 3AM
+    0 3 * * 0 /path/to/log_cleanup.sh
 
 ## Contributing
 
