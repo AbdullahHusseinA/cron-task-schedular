@@ -40,11 +40,12 @@ To add the scripts to your cron scheduler, open crontab with the command:
 ```bash
 
 sudo crontab -e
- 
-# Backup every Sunday at 2AM
+
+# Backup job 
+# To run every Sunday at 2 AM to backup the /etc directory
 0 2 * * 0 /path/to/backup.sh
 
-# Log cleanup every Sunday at 3AM
+# To run every Sunday at 3 AM to clean up log files older than 7 days
 0 3 * * 0 /path/to/log_cleanup.sh
 
 ```
